@@ -174,7 +174,7 @@ export default function StatementsPage() {
       value: value.toString()
     });
     
-    window.location.href = `/drill-down?${params.toString()}`;
+    window.location.href = '/RevRec-cursor-report-drill-down/drill-down?' + params.toString();
   };
 
   // Add refs and effect for outside click
