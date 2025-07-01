@@ -19,3 +19,36 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.animate-gradient-move {
+  background: linear-gradient(120deg, #ffd6e0, #ffe7b2, #e0d6ff, #ffe7b2, #ffd6e0, #f7e6ff, #ffe7b2, #ffd6e0);
+  background-size: 400% 400%;
+  animation: gradient-move 2s linear infinite;
+}
+
+@keyframes stripe-wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.stripe-wave-bg {
+  background: repeating-linear-gradient(135deg, #f3e8ff 0 10px, #e0e7ff 10px 20px, #f3e8ff 20px 30px, #ffe4e6 30px 40px);
+  background-size: 200% 200%;
+  animation: stripe-wave 4s linear infinite;
+}

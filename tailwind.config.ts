@@ -15,4 +15,11 @@ export default {
     },
   },
   plugins: [],
+  safelist: [
+    'animate-gradient-move',
+    'bg-gradient-to-br',
+    'from-purple-300',
+    'via-pink-300',
+    'to-yellow-200'
+  ],
 } satisfies Config;
