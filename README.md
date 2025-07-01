@@ -121,4 +121,4 @@ const handleNumberClick = (label: string, value: number) => {
 
 ## License
 
-This project is for demonstration purposes and recreates the Stripe dashboard interface for educational use.
+This project is for demonstration purposes and recreates the Stripe dashboard interface for educational purpose.
